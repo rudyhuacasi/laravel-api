@@ -25,4 +25,6 @@ use Illuminate\Support\Facades\Route;
 //     return ' il mer';
 // });
 
-Route::get('test', [ProjectController::class, 'index']);
+// Route::get('test', [ProjectController::class, 'index']);
+
+Route::resource('test', ProjectController::class);
